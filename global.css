@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 240, 234, 172;
+    --color-secondary: 255, 138, 138;
+    --color-accent: 0, 0, 0;
+    --color-light: 252, 251, 239;
+    --color-dark: 1, 1, 1;
+    --color-background: 1, 1, 1;
+    --color-text: 0, 0, 0;
+    --color-text-muted: 0, 0, 0;
+    --color-text-inverted: 1, 1, 1;
+  }
+}
